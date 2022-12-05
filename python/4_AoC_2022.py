@@ -1,6 +1,6 @@
 ## Nathan Burwig
-## AoC Day 3 Challenge
-## 12/3/2022
+## AoC Day 4 Challenge
+## 12/4/2022
 ## Bugs: None noted, but the code is far from optimized, just a quick solution
 ## Purpose:
 ##      This challenge was to find if different ranges of numbers are
@@ -16,7 +16,6 @@ def readFile(fileName):
 
 ## * I/O Prepper
 def function(arr):
-    # line = arr[0]
     for thing in arr:
         print(thing.split(","))
         
